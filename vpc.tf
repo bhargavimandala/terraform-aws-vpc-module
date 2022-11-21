@@ -5,6 +5,7 @@ resource "aws_vpc" "vpc" {
   tags = {
     Name = "${var.product}.${var.environment}-vpc"
     costcode = "${var.costcode}"
+    terraformrepo = "${var.terraform_repo}"
     
     
   }
