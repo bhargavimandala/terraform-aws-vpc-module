@@ -8,3 +8,6 @@ variable "private_az" {}
 variable "costcode" {
     type = number
 }
+variable "terraform_repo" {
+    type = string
+}
